@@ -1,0 +1,25 @@
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black; /* Increased border visibility */
+    padding: 10px;
+}
+
+th {
+    background: #333;
+    color: white;
+    font-weight: bold;
+    text-align: center; /* Center-align headers */
+}
+
+td {
+    text-align: left; /* Left-align word content */
+}
+
+tr:nth-child(even) {
+    background: #f0f0f0;
+}
